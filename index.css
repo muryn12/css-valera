@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.name{
+    width: 900px;
+    height: 200px;
+    margin: 10px auto;
+    border: 1px solid black;
+    display: flex;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.letter-one{
+    width: 20%;
+    height: 100%;
+    background: linear-gradient(#cffaf8, white);
+    text-align: center;
+    font-size: 200px;
+    color: #f8900a;
+    transition: 0.5s;
+}
+.letter-one:hover{
+    color: purple;
+}
+.letter-two{
+    width: 20%;
+    height: 100%;
+    background: linear-gradient(#f9d251, white);
+    text-align: center;
+    font-size: 200px;
+    color: black;
+    transition: 0.5s;
+}
+.letter-two:hover{
+    color:#0d50eb;
+}
+.letter-three{
+    width: 20%;
+    height: 100%;
+    background: white;
+    text-align: center;
+    font-size: 200px;
+    color: yellow;
+    transition: 0.5s;
+}
+.letter-three:hover{
+    color: gray;
+}
+.letter-four{
+    width: 20%;
+    height: 100%;
+    background: linear-gradient(white, #088b9f);
+    text-align: center;
+    font-size: 200px;
+    color: white;
+    transition: 0.5s;
+}
+.letter-four:hover{
+    color: #06246a;
+}
+.letter-five{
+    width: 20%;
+    height: 100%;
+    background: linear-gradient(yellow, white);
+    text-align: center;
+    font-size: 200px;
+    color: red;
+    transition: 0.5s;
+}
+.letter-five:hover{
+    color: purple;
+}
+.letter-six{
+    width: 20%;
+    height: 100%;
+    background: linear-gradient(white, #96e9ae);
+    text-align: center;
+    font-size: 200px;
+    color: #259f48;
+    transition: 0.5s;
+}
+.letter-six:hover{
+    color: #06246a;
+}
